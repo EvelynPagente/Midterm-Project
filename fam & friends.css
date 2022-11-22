@@ -1,0 +1,250 @@
+/* family & friends */
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: 'Open Sans',sans-serif;
+    background-color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 70px;
+    background-color: rgb(95, 92, 92);
+    opacity: 0.99;
+    color: black;
+
+
+}
+
+nav h1 {
+    color: white;
+    font-family: cursive;
+    margin-left: 100px;
+}
+
+nav h1:hover{
+    color: rgb(156, 220, 245);
+}
+
+#moon h1 {
+    font-family: cursive;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    margin-right: 50px;
+    list-style: none;
+
+}
+
+
+nav a {
+    color:  rgb(236, 202, 139);
+    margin: 0 20px;
+}
+
+nav a:hover {
+    color: rgb(156, 220, 245);
+
+}
+
+#star {
+    border: 4px solid darkolivegreen;
+    background-color: indianred; 
+    color: white;
+    font-family: cursive;
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+    margin-top: 5%;
+    margin-bottom: 2%;
+    width: 50%;
+    height: 50%;
+    padding: 20px;
+   
+} 
+
+#star span {
+    color: black;
+}
+
+#star p {
+    color: white;
+}
+
+#star p:hover {
+    color:  rgb(156, 220, 245);
+} 
+
+.fam > img {
+    width: 100%;
+    height: 100%;
+}
+
+
+#clasmt header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+#clasmt span {
+    color: rgb(107, 145, 33);
+
+}
+
+#clasmt header p {
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    font-size: 18px;
+    width: 80%;
+    height: 80%;
+}
+
+#clasmt header h1 {
+    font-size: 30px;
+}
+
+#clasmt .row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row ;
+    height: 100%;
+    width: 100%;
+   
+}
+
+#clasmt .row > img {
+    flex-shrink: 1;
+    flex-basis: 25%;
+
+}
+
+#clasmt img {
+    width: 100%;
+    object-fit: fill;
+}
+
+#clasmt img:hover {
+    opacity: 0.7;
+} 
+
+
+.frnd {
+    border: 4px solid darkolivegreen;;
+    background-color: indianred; 
+    color: black;
+    font-family: cursive;
+    text-align: center;
+
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 50%;
+    height: 50%;
+    padding: 20px;
+
+}
+
+.frnd p {
+    color: white;
+}
+
+.frnd p:hover {
+    color:  rgb(156, 220, 245);
+}
+
+
+.fam > img {
+    width: 100%;
+    height: 100%;
+}
+
+#act-fam {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+
+}
+
+#act-fam > div {
+    flex-basis: 50%;
+}
+
+
+#act-fam div:nth-child(2){
+    border: 5px solid darkolivegreen;;
+    background-color: indianred;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+#act-fam div:nth-child(2):hover{
+    opacity: 0.9;
+}
+
+#act-fam img {
+    border: 5px solid black;
+    width: 100%;
+    height: 100%;
+
+}
+
+#act-fam h1 {
+    color: black;
+}
+
+#act-fam p {
+    font-family: cursive;
+    color: white;
+ 
+}
+
+#act-fam p:hover {
+    font-family: cursive;
+    color:  rgb(156, 220, 245);
+}
+
+#main-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    padding: 3%;
+    background-color:  rgb(122, 119, 119);
+    color: beige;
+    
+}
+
+#main-footer:hover {
+    color:black;
+    opacity: 0.9;
+}
+
+
+
